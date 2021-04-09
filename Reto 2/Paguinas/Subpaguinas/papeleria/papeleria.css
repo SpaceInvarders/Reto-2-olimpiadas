@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Dela+Gothic+One&display", sans-serif;
+    background-color: #e7e8d3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%2354d6a2' fill-opacity='0.4'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: rgb(255, 255, 7);
+    color: rgb(32, 29, 37);
+    font-size: 18px;
+}
+
+a {
+    color :rgb(65, 158, 212);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Dela+Gothic+One&display", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(51, 69, 97, 0.781);
+    text-shadow: rgb(28, 124, 156);
+    font-size: 90px;
+    font-style: oblique;
+}
+
+
+.container {
+    width: 90%;
+    margin: 30px;
+}
+
+.nav-main {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 45px 0;
+}
+
+.nav-brand {
+    width: 100px;
+    margin: 20 auto;
+    float: initial;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 2px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid rgb(31, 201, 88);
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 10px 0;
+  }
+  
+  /* Responsive Button */
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #20c7ab;
+    color: rgb(29, 32, 30);
+    font-size: 15px;
+    border: 1px solid #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+.showcase {
+    width: 100%;
+    height: 250px;
+    background: url("../../../img/papleria\ imagen\ banner.jpeg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: rgb(29, 66, 46);
+}
+
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
+}
+
+.showcase .btn {
+  margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+  
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
